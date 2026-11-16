@@ -1,0 +1,27 @@
+/* AI Prompt Enhancer Styles */
+
+/* Add smooth highlight animation for enhanced prompts */
+@keyframes enhanceGlow {
+    0% {
+        box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+    }
+    50% {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    }
+    100% {
+        box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+    }
+}
+
+/* Style for the enhance button when injected */
+.ai-enhance-button {
+    z-index: 9999 !important;
+}
+
+.ai-enhance-button:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+.ai-enhance-button:active {
+    transform: scale(0.95) !important;
+}
